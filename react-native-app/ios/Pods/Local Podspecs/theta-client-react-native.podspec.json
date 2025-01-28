@@ -1,0 +1,33 @@
+{
+  "name": "theta-client-react-native",
+  "version": "1.11.1",
+  "summary": "This library provides a way to control RICOH THETA using.",
+  "homepage": "https://github.com/ricohapi/theta-client#readme",
+  "license": "MIT",
+  "authors": "ricoh API (https://github.com/ricohapi)",
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source": {
+    "git": "git@github.com:ricohapi/theta-client.git",
+    "tag": "1.11.1"
+  },
+  "source_files": "ios/**/*.{h,m,mm,swift}",
+  "dependencies": {
+    "React-Core": [],
+    "THETAClient": [
+      "1.11.1"
+    ],
+    "React-Codegen": [],
+    "RCT-Folly": [],
+    "RCTRequired": [],
+    "RCTTypeSafety": [],
+    "ReactCommon/turbomodule/core": []
+  },
+  "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32 -DRCT_NEW_ARCH_ENABLED=1",
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/boost\"",
+    "OTHER_CPLUSPLUSFLAGS": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17"
+  }
+}

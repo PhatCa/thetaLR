@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "react": "18.3.1",
-    "react-native": "0.77.0"
+    "react-native": "0.77.0",
+    "theta-client-react-native": "file:./modules/theta-client-react-native"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

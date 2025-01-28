@@ -1,0 +1,1 @@
+../../../../../node_modules/theta-client-react-native/ios/ThetaClientReactNative-Bridging-Header.h

@@ -1,0 +1,8 @@
+framework module THETAClient {
+    umbrella header "THETAClient.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}

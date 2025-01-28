@@ -1,0 +1,1 @@
+../../../Target Support Files/theta-client-react-native/theta-client-react-native-umbrella.h

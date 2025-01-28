@@ -1,0 +1,6 @@
+module theta_client_react_native {
+  umbrella header "theta-client-react-native-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-ThetaLR/Pods-ThetaLR-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/THETAClient/THETAClient.framework/THETAClient
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes

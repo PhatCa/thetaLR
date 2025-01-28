@@ -1,0 +1,6 @@
+module Pods_ThetaLR {
+  umbrella header "Pods-ThetaLR-umbrella.h"
+
+  export *
+  module * { export * }
+}

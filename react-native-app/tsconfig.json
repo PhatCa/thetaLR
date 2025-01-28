@@ -1,3 +1,13 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ],
+    "paths": {
+      "theta-client-react-native": ["./src/types/theta-client-react-native.d.ts"]
+    }
+  },
+  "include": ["src/**/*"]
 }
